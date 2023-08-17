@@ -1,4 +1,6 @@
-# event-study-toolkit
+
+# Event Study Toolkit
+
 event-study-toolkit is a package designed for economists and researchers to conduct event studies on stocks and bond. 
 
 ## Overview
@@ -21,17 +23,17 @@ Leveraging the Pandas functionality, this package allows one to design an event 
 ### Significance Tests Available for Use
 
 Full Sample
- - **T Test**: parametric test, [more-info](https://www.eventstudytools.com/significance-tests#t-test)
- - **Sign Test**: nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016), [more-info](https://www.eventstudytools.com/significance-tests#SIGN)
- - **Patell Test**: nonparametric test, [James M. Patell (1976)](https://www.jstor.org/stable/2490543), [more-info](https://www.eventstudytools.com/significance-tests#Patell)
- - **Genaralized Sign test**: nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016), [more-info](https://www.eventstudytools.com/significance-tests#GSIGN)
+ - [**T Test**](https://www.eventstudytools.com/significance-tests#t-test): parametric test
+ - [**Sign Test**](https://www.eventstudytools.com/significance-tests#SIGN): nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016)
+ - [**Patell Test**](https://www.eventstudytools.com/significance-tests#Patell): nonparametric test, [James M. Patell (1976)](https://www.jstor.org/stable/2490543)
+ - [**Genaralized Sign test**](https://www.eventstudytools.com/significance-tests#GSIGN): nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016)
 
  Group Level
- - **Sign Test**: nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016), [more-info](https://www.eventstudytools.com/significance-tests#SIGN)
- - **Patell Test**: nonparametric test, [James M. Patell (1976)](https://www.jstor.org/stable/2490543), [more-info](https://www.eventstudytools.com/significance-tests#Patell)
- - **Genaralized Sign test**: nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016), [more-info](https://www.eventstudytools.com/significance-tests#GSIGN)
- - **Generalized Rank Z test**: nonparametric test, [Kolari and Pynnönen (2011)](https://www.sciencedirect.com/science/article/pii/S0927539811000624), [more-info](https://www.eventstudytools.com/significance-tests#GRANKZ)
- - **Wilcoxon signed-rank Test**: nonparametric test, [Frank Wilcoxon (1945)](http://webspace.ship.edu/pgmarr/Geo441/Readings/Wilcoxon%201945%20-%20Individual%20Comparisons%20by%20Ranking%20Methods.pdf), [more-info](https://www.eventstudytools.com/significance-tests#wilcoxon)
+ - [**Sign Test**](https://www.eventstudytools.com/significance-tests#SIGN): nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016)
+ - [**Patell Test**](https://www.eventstudytools.com/significance-tests#Patell): nonparametric test, [James M. Patell (1976)](https://www.jstor.org/stable/2490543)
+ - [**Genaralized Sign test**](https://www.eventstudytools.com/significance-tests#GSIGN): nonparametric test, [Arnold Richard Cowan (1992)](https://link.springer.com/article/10.1007/BF00939016)
+ - [**Generalized Rank Z test**](https://www.eventstudytools.com/significance-tests#GRANKZ): nonparametric test, [Kolari and Pynnönen (2011)](https://www.sciencedirect.com/science/article/pii/S0927539811000624)
+ - [**Wilcoxon signed-rank Test**](https://www.eventstudytools.com/significance-tests#wilcoxon): nonparametric test, [Frank Wilcoxon (1945)](http://webspace.ship.edu/pgmarr/Geo441/Readings/Wilcoxon%201945%20-%20Individual%20Comparisons%20by%20Ranking%20Methods.pdf) 
 
 ## Usage
 
